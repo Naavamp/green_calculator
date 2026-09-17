@@ -29,12 +29,13 @@ public class KeyPad
         numberButtons.add(new JButton("7"));
         numberButtons.add(new JButton("8"));
         numberButtons.add(new JButton("9"));
+        numberButtons.add(new JButton("."));
+        numberButtons.add(new JButton("="));
 
         JPanel operationButtons = new JPanel(new GridLayout(0, 1));
-        operationButtons.add(new JButton("="));
         operationButtons.add(new JButton("+"));
         operationButtons.add(new JButton("-"));
-        operationButtons.add(new JButton("x"));
+        operationButtons.add(new JButton("*"));
         operationButtons.add(new JButton("/"));
 
 
