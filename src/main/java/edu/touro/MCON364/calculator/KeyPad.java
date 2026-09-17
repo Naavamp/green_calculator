@@ -13,7 +13,9 @@ public class KeyPad
         //NORTH Input number
 
         JPanel input = new JPanel(new GridLayout(0, 2, 4, 4));
-        input.add(new JTextField("", 10));
+        JTextField inputFeild = new JTextField("0", 10);
+        input.add(inputFeild);
+        inputFeild.setEditable(false);
 
         //Center Numbers and operations0;
         JPanel numberButtons = new JPanel(new GridLayout(4, 3));
